@@ -1,0 +1,98 @@
+  *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    section
+    {
+      position: relative; 
+      margin: 3px;
+
+    }
+    h1{
+      margin-bottom: 10px;
+    }
+    #bg1 {
+      
+      background-color: forestgreen;
+      font-size: 150%;
+      border: 3px solid purple;
+    }
+    #veg{
+      float: right;
+      top: 0px;
+      right: 0px;
+      background-color: blue;
+      padding: 5px;
+      border: 2px solid black;
+      max-width: 100px;
+      margin-top: 00px;
+      overflow: auto;
+     
+      margin-bottom: 10px;
+      }
+    #bg2 {
+      
+      background-color: #8a0303;
+      font-size: 150%;
+      border: 3px solid purple;
+    }
+    #non-veg{
+       float: right;
+      top: 0px;
+      right: 0px;
+      background-color: orange;
+      padding: 5px;
+      border: 2px solid red;
+      max-width: 150px;
+      margin-top: 00px;
+      overflow: auto;
+      
+      margin-bottom: 10px;
+    }
+    #bg3 {
+      
+      background-color: #ff6347;
+      font-size: 150%;
+      border: 3px solid purple;
+      
+
+    }
+    #egg{
+      background-color: gold;
+      padding: 5px;
+      border: 2px solid red;
+      width: 200px;
+      margin-top: 00px;
+      overflow: auto;
+       float: right;
+      top:0px;
+      right:0px;
+      margin-bottom: 10px
+      }
+    .style{
+      clear: both;
+    }
+    .row {
+      width:100%;
+    }
+    @media (min-width: 992px) {
+      .col-lg-1{
+        float: left;
+        border: 1px solid green;
+          width: 32.5%;
+       }
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+     .col-md-1 , .col-md-2 {
+         float: left;
+         border: 1px solid green;
+        }
+    .col-md-1 {
+      width: 49%;
+      }
+    .col-md-2 {
+      width: 98.5%;
+      margin:5px; 
+        }
+    }
